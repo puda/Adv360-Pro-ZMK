@@ -42,11 +42,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp N1     &kp N2              &kp N3          &kp N4          &kp N5   &tog 1                                                                        &mo 3      &kp N6   &kp N7           &kp N8               &kp N9                    &kp N0         &kp BACKSLASH
-&kp TAB    &kp Q      &kp W               &kp E           &kp R           &kp T    &none                                                                         &none      &kp Y    &kp U            &kp I                &kp O                     &kp P          &kp MINUS
-&kp LCTRL  &kp A      &kp S               &kp D           &kp F           &kp G    &mo 4          &kp LEFT_COMMAND  &kp LALT       &kp RIGHT_ALT  &kp RIGHT_GUI  &none      &kp H    &kp J            &kp K                &kp L                     &kp SEMICOLON  &hm LCTRL SQT
-&kp LSHFT  &kp Z      &hm LEFT_CONTROL X  &hm LEFT_ALT C  &hm LEFT_GUI V  &lt 1 B                                   &mo 1          &mo 2                                    &lt 1 N  &hm RIGHT_GUI M  &hm RIGHT_ALT COMMA  &hm RIGHT_CONTROL PERIOD  &kp FSLH       &kp RSHFT
-&mo 1      &kp GRAVE  &tog 2              &kp LEFT        &kp RIGHT                &kp BACKSPACE  &kp EQUAL         &kp LCTRL      &kp LCTRL      &kp ENTER      &kp SPACE           &kp UP_ARROW     &kp DOWN_ARROW       &kp LBKT                  &kp RBKT       &mo 1
+&kp ESC    &kp N1       &kp N2      &kp N3      &kp N4        &kp N5  &tog 1                                                                        &mo 3      &kp N6  &kp N7        &kp N8          &kp N9      &kp N0               &kp BACKSLASH
+&kp TAB    &kp Q        &kp W       &kp E       &kp R         &kp T   &none                                                                         &none      &kp Y   &kp U         &kp I           &kp O       &kp P                &kp MINUS
+&kp LCTRL  &hm LCTRL A  &hm LALT S  &hm LGUI D  &hm LSHIFT F  &kp G   &mo 4          &kp LEFT_COMMAND  &kp LALT       &kp RIGHT_ALT  &kp RIGHT_GUI  &none      &kp H   &hm RSHIFT J  &hm RGUI K      &hm RALT L  &hm RCTRL SEMICOLON  &hm LCTRL SQT
+&kp LSHFT  &kp Z        &kp X       &kp C       &kp V         &kp B                                    &mo 1          &mo 2                                    &kp N   &kp M         &kp COMMA       &kp PERIOD  &kp FSLH             &kp RSHFT
+&mo 1      &kp GRAVE    &tog 2      &kp LEFT    &kp RIGHT             &kp BACKSPACE  &lt 1 EQUAL       &kp LCTRL      &kp LCTRL      &lt 1 ENTER    &kp SPACE          &kp UP_ARROW  &kp DOWN_ARROW  &kp LBKT    &kp RBKT             &mo 1
             >;
         };
 
